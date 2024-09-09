@@ -7,8 +7,8 @@ hero:
   text: "A Full-Stack Solution for Modern Web Applications"
   tagline: with Major SEO Benefits
   image:
-    light: /public/logo-light.png
-    dark: /public/logo-dark.png
+    light: /logo-light.png
+    dark: /logo-dark.png
     alt: Kyrix
   actions:
     - theme: brand

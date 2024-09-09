@@ -43,7 +43,7 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- :root {
+:root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -137,3 +137,27 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.vp-docs .custom-container.note {
+  border-left: 4px solid #4caf50;
+  padding: 10px;
+  background-color: #f9fbe7;
+}
+
+/* Light mode styles */
+.note {
+  border-radius: 4px;
+  border-left: 4px solid #4caf50;
+  margin: 1rem 0;
+  padding: 10px;
+  background-color: #f9fbe7;
+  color: #000;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .note {
+    border-left: 4px solid #66bb6a;
+    background-color: gainsboro;
+    color: #000;
+  }
+}

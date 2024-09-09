@@ -1,7 +1,5 @@
 # Getting Started
 
-## Installation
-
 ## Prerequisites
 
 - <a href='https://nodejs.org' target='__blank'>Node.js</a> version 18 or higher.
@@ -54,6 +52,12 @@ TODO: update this later.
 
 ## Setup enivronment
 
-```env
+```
 SERVER_PORT=3000 # or any port
+```
+
+## Start Up
+
+```sh
+npm run dev
 ```
