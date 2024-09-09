@@ -46,6 +46,14 @@ export default defineConfig({
                     text: "Defining Routes",
                     link: "/client/react-router/defining-routes",
                   },
+                  {
+                    text: "Nesting Routes",
+                    link: "/client/react-router/nesting-routes",
+                  },
+                  {
+                    text: "Dynamic Routes",
+                    link: "/client/react-router/dynamic-routes",
+                  },
                 ],
               },
             ],
