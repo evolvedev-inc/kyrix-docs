@@ -34,25 +34,97 @@ export default defineConfig({
         base: "/routing",
         collapsed: true,
         items: [
+          // React router
           {
-            text: "Client-Side Routing",
+            text: "React Router",
             collapsed: true,
             items: [
               {
-                text: "React Router",
+                text: "Defining Routes",
+                link: "/react-router/defining-routes",
+              },
+              {
+                text: "Nesting Routes",
+                link: "/react-router/nesting-routes",
+              },
+              {
+                text: "Dynamic Routes",
+                link: "/react-router/dynamic-routes",
+              },
+              {
+                text: "Handling Errors",
+                link: "/react-router/handling-errors",
+              },
+              {
+                text: "Components",
+                base: "/routing/react-router/components",
                 collapsed: true,
                 items: [
                   {
-                    text: "Defining Routes",
-                    link: "/client/react-router/defining-routes",
+                    text: "Link",
+                    link: "/link",
                   },
                   {
-                    text: "Nesting Routes",
-                    link: "/client/react-router/nesting-routes",
+                    text: "NavLink",
+                    link: "/navlink",
                   },
                   {
-                    text: "Dynamic Routes",
-                    link: "/client/react-router/dynamic-routes",
+                    text: "Outlet",
+                    link: "/outlet",
+                  },
+                ],
+              },
+              {
+                text: "Hooks",
+                base: "/routing/react-router/hooks",
+                collapsed: true,
+                items: [
+                  {
+                    text: "useNavigate",
+                    link: "/use-navigate",
+                  },
+                  {
+                    text: "useParams",
+                    link: "/use-params",
+                  },
+                  {
+                    text: "useSearchParams",
+                    link: "/use-search-params",
+                  },
+                  {
+                    text: "useLocation",
+                    link: "/use-location",
+                  },
+                ],
+              },
+            ],
+          },
+          // Kyrix Router
+          {
+            text: "Kyrix Router",
+            base: "/routing/kyrix-router",
+            link: "/",
+            collapsed: true,
+            items: [
+              {
+                text: "Defining Routes",
+                link: "/defining-routes",
+              },
+              {
+                text: "Dynamic Routes",
+                link: "/dynamic-routes",
+              },
+              {
+                text: "Handling Errors",
+                link: "/handling-errors",
+              },
+              {
+                text: "Hooks",
+                base: "/routing/kyrix-router/hooks",
+                items: [
+                  {
+                    text: "useKyrixContext",
+                    link: "/use-kyrix-context",
                   },
                 ],
               },
@@ -60,9 +132,32 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Data Fetching",
+      },
+      {
+        text: "Caching",
+      },
+      {
+        text: "Search Engine Optimization",
+      },
+      {
+        text: "Deploying",
+      },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/evolvedev-inc/Kyrix" },
     ],
+
+    search: {
+      provider: "local",
+      options: {
+        disableQueryPersistence: true,
+      },
+    },
   },
+
+  assetsDir: "./public",
+  cleanUrls: true,
+  shouldPreload: () => true,
 });
