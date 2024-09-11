@@ -134,9 +134,38 @@ export default defineConfig({
       },
       {
         text: "Data Fetching",
-      },
-      {
-        text: "Caching",
+        base: "/data-fetching",
+        collapsed: true,
+        items: [
+          {
+            text: "With tRPC",
+            link: "/with-trpc",
+          },
+          {
+            text: "With Kyrix Router",
+            link: "/with-kyrix-router",
+          },
+          {
+            text: "Mutations",
+            base: "/data-fetching/mutations",
+            link: "/",
+            collapsed: true,
+            items: [
+              {
+                text: "Invalidation",
+                link: "/invalidation",
+              },
+              {
+                text: "Handling Errors",
+                link: "/handling-errors",
+              },
+              {
+                text: "Mutating Cache",
+                link: "/mutating-cache",
+              },
+            ],
+          },
+        ],
       },
       {
         text: "Search Engine Optimization",

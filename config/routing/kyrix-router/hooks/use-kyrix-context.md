@@ -65,7 +65,7 @@ export const App = () => {
 ```
 **This code is mainly responsible for blocking any navigations until we have our metadata and initial data for that page.**
 
-> **Note:** In case of any errors from **kyrix router**, the navigation will be resumed giving the developer do their error handling. 
+> **Note:** In case of any errors from **Kyrix Router**, the navigation will still be resumed giving the developer full control for error handling. 
 
 This is a part of our architecture and will be pre-configured for you.
 
