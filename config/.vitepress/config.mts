@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Kyrix Docs",
+  title: "Kyrix",
   description:
-    "Kyrix.Js – A Full-Stack Solution for Modern Web Applications with Major SEO Benefits",
+    "Kyrix – A Full-Stack Solution for Modern Web Applications with Major SEO Benefits",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "Home", link: "/" }],
@@ -121,6 +121,7 @@ export default defineConfig({
               {
                 text: "Hooks",
                 base: "/routing/kyrix-router/hooks",
+                collapsed: true,
                 items: [
                   {
                     text: "useKyrixContext",
@@ -140,6 +141,7 @@ export default defineConfig({
           {
             text: "With tRPC & React Query",
             base: "/data-fetching/with-trpc-and-react-query",
+            collapsed: true,
             link: "/",
             items: [
               {
@@ -167,6 +169,21 @@ export default defineConfig({
                 link: "/cache-management",
               },
             ],
+          },
+        ],
+      },
+      {
+        text: "Middlewares",
+        base: "/middlewares",
+        collapsed: true,
+        items: [
+          {
+            text: "With tRPC",
+            link: "/with-trpc",
+          },
+          {
+            text: "Global",
+            link: "/global",
           },
         ],
       },
