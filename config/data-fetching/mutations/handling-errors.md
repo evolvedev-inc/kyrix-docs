@@ -1,4 +1,4 @@
-# Error Handling
+# Handling Errors
 
 We have already discussed a little bit about errors and how to handle them usint **React Query** but in this section we'll go even more deeper.
 

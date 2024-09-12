@@ -2,7 +2,7 @@
 
 This guide will cover the basics of fetching data on server and using it in client via standard api requests.
 
-## With tRPC
+## With tRPC in server
 
 tRPC will handle all of your api requests. This is the best place and recommended way to fetch data server side.
 
@@ -57,7 +57,7 @@ export type AppRouter = typeof appRouter;
 
 **The server part is done! 🎉**
 
-### Using tRPC query data in client
+## With React Query in client
 
 ```tsx
 import { trpc } from "@/lib/trpcClient";

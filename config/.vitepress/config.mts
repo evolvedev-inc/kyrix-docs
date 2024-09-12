@@ -138,8 +138,15 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: "With tRPC",
-            link: "/with-trpc",
+            text: "With tRPC & React Query",
+            base: "/data-fetching/with-trpc-and-react-query",
+            link: "/",
+            items: [
+              {
+                text: "Fallback States",
+                link: "/fallback-states",
+              },
+            ],
           },
           {
             text: "With Kyrix Router",
@@ -152,16 +159,12 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "Invalidation",
-                link: "/invalidation",
-              },
-              {
                 text: "Handling Errors",
                 link: "/handling-errors",
               },
               {
-                text: "Mutating Cache",
-                link: "/mutating-cache",
+                text: "Cache Management",
+                link: "/cache-management",
               },
             ],
           },
@@ -172,6 +175,9 @@ export default defineConfig({
       },
       {
         text: "Deploying",
+      },
+      {
+        text: "CLI",
       },
     ],
     socialLinks: [

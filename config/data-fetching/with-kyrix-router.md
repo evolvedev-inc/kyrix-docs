@@ -45,10 +45,14 @@ export const ssrRoutes = [
 ```tsx
 import { useLocation } from "react-router-dom";
 import { trpc } from "@/lib/trpcClient";
+import type { KyrixRouter } from "@/server/trpc/routers/kyrixRouter";
 
 const Product = () => {
   const { pathname } = useLocation(); // From React Router
-  const { data: product } = trpc.kyrix.ssr.useQuery({ path: pathname });
+  const { data } = trpc.kyrix.ssr.useQuery({ path: pathname });
+  // Here, typescript won't be able to infer correct types for individual routes.
+  // You can get the exact type by this method.
+  const { initialData: product } = data as KyrixRouter["Product"];
 
   return (
     <div>
@@ -74,6 +78,7 @@ const { data: product } = trpc.kyrix.ssr.useQuery(
   }
 );
 ```
+
 **As you can see the data is still there without any loading.**
 
 > **Note:** Use this pattern for smaller fetches which doesn't take long. As the initial render will be blocked until data is available on the server.
