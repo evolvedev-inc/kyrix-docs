@@ -133,6 +133,7 @@ export default defineConfig({
           },
         ],
       },
+      // Data fetching
       {
         text: "Data Fetching",
         base: "/data-fetching",
@@ -180,6 +181,7 @@ export default defineConfig({
           },
         ],
       },
+      // Middlewares
       {
         text: "Middlewares",
         base: "/middlewares",
@@ -195,12 +197,35 @@ export default defineConfig({
           },
         ],
       },
+      // SEO
       {
-        text: "Search Engine Optimization",
+        text: "SEO",
+        base: "/seo",
+        collapsed: true,
+        items: [
+          {
+            text: "Metadata",
+            link: "/metadata",
+          },
+          {
+            text: "robots.txt",
+            link: "/robots",
+          },
+          {
+            text: "Sitemap",
+            link: "/sitemap",
+          },
+          {
+            text: "Manifest",
+            link: "/manifest",
+          },
+        ],
       },
+      // Deploing
       {
         text: "Deploying",
       },
+      // CLI
       {
         text: "CLI",
       },
