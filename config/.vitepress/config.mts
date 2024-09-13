@@ -152,7 +152,15 @@ export default defineConfig({
           },
           {
             text: "With Kyrix Router",
-            link: "/with-kyrix-router",
+            base: "/data-fetching/with-kyrix-router",
+            collapsed: true,
+            link: "/",
+            items: [
+              {
+                text: "Fallback States",
+                link: "/fallback-states",
+              },
+            ],
           },
           {
             text: "Mutations",
