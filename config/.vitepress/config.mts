@@ -224,6 +224,15 @@ export default defineConfig({
       // Deploing
       {
         text: "Deploying",
+        base: "/deploying",
+        link: "/",
+        collapsed: true,
+        items: [
+          {
+            text: "Environment Variables",
+            link: "/environment-variables",
+          },
+        ],
       },
       // CLI
       {
