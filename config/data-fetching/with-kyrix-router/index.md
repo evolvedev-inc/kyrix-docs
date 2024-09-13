@@ -4,7 +4,7 @@ This guide will cover the basics of fetching data on server and using it in clie
 
 ## With Kyrix Router
 
-You'll mostly fetch dynamic data to set metadata for a page, but you might also need this data in client as well. So, why refetch in client again?
+You'll mostly fetch dynamic data to set metadata for a page, but you might also need this data in client as well. So, why refetch again?
 
 **You have the ability to pass this data to client with the initial html response.**
 

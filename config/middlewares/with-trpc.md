@@ -35,7 +35,7 @@ const productsRouter = t.router({
 });
 ```
 
-## Passing context
+## Passing Context
 
 Context is passed to middlewares and can be modified and extended.
 
@@ -57,7 +57,7 @@ const productsRouter = t.router({
 });
 ```
 
-## Chaining middlewares
+## Chaining Middlewares
 
 You can chain multiple middlewares and they'll be called accroding to their order of chaining.
 
@@ -82,7 +82,7 @@ const adminProcedure = t.procedure.use(({ ctx, next }) => {
 
 const combinedProcedure = t.procedure.use(privateProcedure).use(adminProcedure);
 ```
-## Using chained middlewares
+## Using Chained Middlewares
 
 ```ts
 const productsRouter = t.router({

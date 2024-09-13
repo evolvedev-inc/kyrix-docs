@@ -2,7 +2,7 @@
 
 Mutations are used to modify or update data on the server, typically triggered by a user action, like submitting a form.
 
-# Creating a new tRPC router
+# Creating a new tRPC Router
 
 ```ts
 import { z } from "zod";
@@ -30,7 +30,7 @@ export const productsRouter = router({
 
 The input will automatically be vaildated depending on your validation schema and appropriate error response will be returned, client side error handling is left up to the developer.
 
-## Usage in client with React Query
+## Usage in Client With React Query
 
 ```tsx
 import { trpc } from "@/lib/trpcClient";
@@ -62,7 +62,7 @@ const Products = () => {
 export default Products;
 ```
 
-## Handling loading states
+## Handling Loading States
 
 For a good user experience you need to alert them if some mutation is pending.
 
@@ -75,9 +75,9 @@ if (isLoading) {
 // ...
 ```
 
-tRPC just provides a type-safe wrapper around **React Query**, thus you've access to all the features of react query but in a typesafe way.
+tRPC just provides a type-safe wrapper around **React Query**, thus you've access to all the features of react query.
 
-## Handling errors and success
+## Handling Errors & Success
 
 ```tsx
 const { mutate, isLoading } = trpc.products.delete.useMutation({

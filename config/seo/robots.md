@@ -21,7 +21,8 @@ import { serveStatic } from "@kyrix/server";
 
 const seoMiddleware = (req, res, next) => {
   if (req.url === "/robots.txt") {
-    return serveStatic('/src/server/robots.txt') // Your file path
+    // Serve static takes an absolute path.
+    return serveStatic('src/server/robots.txt') // Your file path
   }
   // ...
 

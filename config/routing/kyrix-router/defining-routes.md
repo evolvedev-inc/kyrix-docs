@@ -69,7 +69,7 @@ type Metadata = {
 
 ## Adding Kyrix Provider
 
-Add the Router Provider in the entry point of your React app, make sure it's under the client-side router as it uses some router specific hooks.
+Add the **Kyrix Provider** in the entry point of your React app, make sure it's under the client-side router as it uses some router specific hooks.
 
 ```tsx
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -91,7 +91,7 @@ Don't worry everything will be setup for you beforehand 👍.
 
 **If you're using any other router, use it's navigate function as `<KyrixContextProvider>` accepts a generic navigate function ie. `(href: string) => void`.**
 
-## Adding more routes
+## Adding More Routes
 
 ```tsx
 export const ssrRoutes = [

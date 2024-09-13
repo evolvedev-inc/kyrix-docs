@@ -234,10 +234,6 @@ export default defineConfig({
           },
         ],
       },
-      // CLI
-      {
-        text: "CLI",
-      },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/evolvedev-inc/Kyrix" },
@@ -249,6 +245,10 @@ export default defineConfig({
         disableQueryPersistence: true,
       },
     },
+  },
+
+  sitemap: {
+    hostname: "https://kyrix.evolveasdev.com",
   },
 
   assetsDir: "./public",

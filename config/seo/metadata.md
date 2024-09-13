@@ -4,7 +4,7 @@ Meta tags provide essential information about your web pages, improving search e
 
 In **Kyrix** even though you're working in a client-side react app, still metadata will be added in the initial HTML response.
 
-## Static metadata
+## Static Metadata
 
 You can add meta tags for each page in `src/server/SSR.ts`
 
@@ -15,22 +15,20 @@ export const ssrRoutes = [
     path: "/",
     handler: () => ({
       meta: {
-        meta: {
-          title: "Home",
-          description: "Home page desc",
-          // ...
-        },
+        title: "Home",
+        description: "Home page desc",
+        // ...
       },
     }),
   },
 ];
 ```
 
-The `handler` function in ssrRoutes expects you to return a meta object with all the metadata needed.
+The `handler` function in **ssrRoutes** expects you to return a meta object with all the metadata needed.
 
 **Check [metadata options](/routing/kyrix-router/defining-routes#metadata-options) to see all available meta tags options.**
 
-## Dynamic metadata
+## Dynamic Metadata
 
 You can even fetch dynamic data from server and use it to set your meta tags.
 

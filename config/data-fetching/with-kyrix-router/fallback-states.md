@@ -2,7 +2,7 @@
 
 When using **Kyrix Router**, we expect data to be available for rendering immediately. However, handling missing or errored SSR data gracefully is crucial.
 
-## Navigation loading states
+## Navigation Loading States
 
 Use `useKyrixContext` hook to show loading states during navigation:
 
@@ -21,7 +21,7 @@ export const App = () => {
 
 > **Note:** Apply this loading state globally for all routes.
 
-## Navigation error states
+## Navigation Error States
 
 For handling errors during navigation, it's better to an **Error Boundary**.
 

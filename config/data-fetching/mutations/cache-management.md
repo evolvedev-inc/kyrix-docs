@@ -10,7 +10,7 @@ You can use `useUtils` hook provided by trpc to maintain client-side cached data
 const ctx = trpc.useUtils();
 ```
 
-## Query invalidation
+## Query Invalidation
 
 After completion of a mutation, you can invalidate query cache to show the lastest data.
 
@@ -21,7 +21,7 @@ const ctx = trpc.useUtils();
 ctx.invalidate();
 ```
 
-### Invalidating specific routers/queries
+### Invalidating Specific routers/queries
 
 ```tsx
 const ctx = trpc.useUtils();

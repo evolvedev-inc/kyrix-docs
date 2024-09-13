@@ -2,7 +2,7 @@
 
 We have already discussed a little bit about errors and how to handle them usint **React Query** but in this section we'll go even more deeper.
 
-## Global error handling
+## Global Error Handling
 
 You can find the this file in `src/Providers.tsx`
 
