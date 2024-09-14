@@ -1,43 +1,43 @@
 {
-  "hash": "3af036ab",
-  "configHash": "ce198374",
-  "lockfileHash": "cf72ef10",
-  "browserHash": "dcd5b142",
+  "hash": "06113679",
+  "configHash": "d99d9f86",
+  "lockfileHash": "12d2af21",
+  "browserHash": "09994648",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "19a9c6bf",
+      "fileHash": "b7eb1d1a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.4.4/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "f672b4b0",
+      "fileHash": "44136601",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@11.0.3_vue@3.5.3/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "8f70b0c0",
+      "fileHash": "b2a8bc8c",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@11.0.3_focus-trap@7.5.4_vue@3.5.3/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "40d0cc62",
+      "fileHash": "9c74e6e4",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "a8890a3d",
+      "fileHash": "c368ceee",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@7.1.0/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "9b74445e",
+      "fileHash": "6713039f",
       "needsInterop": false
     }
   },
