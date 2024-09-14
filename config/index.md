@@ -18,10 +18,10 @@ hero:
       link: /intro/getting-started
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: SEO Boost
+    details: Kyrix injects dynamic metadata into the HTML before it’s served, giving significant SEO benefits.
+  - title: Fast & Lightweight
+    details: Built with Vite, Fast build time and high performance.
+  - title: Familiar React Experience
+    details: No steep learning curve—Kyrix sticks with standard React practices and client-side rendering.
 ---
