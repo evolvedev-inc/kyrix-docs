@@ -16,7 +16,7 @@ hero:
       text: Getting Started
       link: /intro/getting-started
     - theme: alt
-      text: For kryix tutorials and more
+      text: Tutorials
       link: https://evolveasdev.com
 
 features:

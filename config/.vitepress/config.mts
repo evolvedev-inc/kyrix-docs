@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import svgLoader from "vite-svg-loader";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -245,6 +246,14 @@ export default defineConfig({
         disableQueryPersistence: true,
       },
     },
+  },
+
+  vite: {
+    plugins: [
+      svgLoader({
+        defaultImport: "url",
+      }),
+    ],
   },
 
   sitemap: {
