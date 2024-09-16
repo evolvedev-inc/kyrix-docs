@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Getting Started
       link: /intro/getting-started
+    - theme: alt
+      text: For kryix tutorials and more
+      link: https://evolveasdev.com
 
 features:
   - title: SEO Boost
