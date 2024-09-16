@@ -38,7 +38,7 @@ Use our CLI to bootstrap a kyrix project with your choice of configuration.
 │  2. MySQL
 │  3. Mongodb
 │
-◇  ◆  Choose an ORM : (only for prostgres and mysql)
+◇  ◆  Choose an ORM : (only for prostgresql and mysql)
 │  1. Prisma
 │  2. Drizzle
 │
